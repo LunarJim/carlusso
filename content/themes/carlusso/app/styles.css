@@ -1,0 +1,108 @@
+html {
+  min-height: 100vh;
+}
+
+.navbar-brand {
+ color: #D40000 !important;
+ font-family: 'Fugaz One', cursive;
+}
+
+header {
+  height: 30vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header::after {
+  content: "";
+  background: url(../images/alfaRomeoGiulia.jpeg);
+  background-size: cover;
+  height: 30vh;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.header__content {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 780px) {
+  .header__content {
+    display: none;
+  }
+}
+
+.header__slogan {
+  color: white;
+  font-size: 2em;
+  padding-left: 1em;
+  font-weight: 600;
+  font-style: italic;
+  opacity: 0.9;
+  transition-duration: 1s;
+}
+
+.header__slogan:hover {
+  opacity: 1;
+  color: firebrick;
+}
+
+.header-title h2 {
+  color: #D40000 !important;
+  font-family: 'Fugaz One', cursive !important;
+}
+
+.slide {
+  height: 25em;
+}
+
+.slide img {
+  width: 30em;
+  
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.card img {
+  max-height: 13em;
+  opacity: 0.9;
+}
+
+.card img:hover {
+  opacity: 1;
+}
+
+/* page one car */
+
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* single page */
+
+.single-car-title {
+  color: #D40000 !important;
+  font-family: 'Fugaz One', cursive !important;
+}
+
