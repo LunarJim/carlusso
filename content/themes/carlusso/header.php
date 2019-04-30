@@ -26,7 +26,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link text-secondary" href="#">Occasions
+                <a class="nav-link text-secondary" href="#">Qui sommes-nous ?
                 </a>
               </li>
               <li class="nav-item">
